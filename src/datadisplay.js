@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import './App.css';
 
 class Datadisplay extends Component{
-    // constructor(props){
-    //     super(props);
-    // }
+    constructor(props){
+        super(props);
+        console.log(this.props.value);
+    }
 render(){
     return(
         <>

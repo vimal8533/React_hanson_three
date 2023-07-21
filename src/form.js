@@ -3,17 +3,16 @@ import Datadisplay from './datadisplay';
 import './App.css';
 
 class Form extends Component{
-    constructor(){
-        super();
+   
         
-        this.state={
+        state={
             Name:"",
             Department:"",
             Rating:"",
             Empdata:[],
             clicked:true
         }
-    }
+    
     togglefunction =()=>{
         this.setState({clicked:!this.state.clicked})
     }
